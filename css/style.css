@@ -1,0 +1,335 @@
+/* =======Common Css Part====== */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+html,body{
+    scroll-behavior: unset!important;
+}
+/* ======Navbar Css Part====== */
+
+
+.navbar{
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   width: 100%;
+   background-color: #081624;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right:0;
+    padding-left:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    position: relative;
+  }
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 15px 15px;
+  }
+.navbar-expand-lg .navbar-nav .nav-link::after {
+   position: absolute;
+   content: "";
+   bottom:-23px;
+   left: 0;
+   right: 0;
+   width: 0;
+   margin: 0 auto;
+   height: 3px;
+   background-color: #fce38a;
+   transition: all linear .3s;
+  }
+/* .navbar-expand-lg .navbar-nav .nav-item :hover.nav-link::after  {
+    width: 100%;
+  } */
+.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link::after{
+    color: #fce38a;
+    width: 100%;
+  }
+ .navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link{
+      padding-right: 0;
+  }
+  .nav-item.active .nav-link::after{
+      opacity: 1;
+      width: 100%;
+  }
+  .nav-item.active .nav-link{
+      color: #fce38a;
+  }
+
+  .navbar-expand-lg .navbar-nav .dropdown-menu{
+    margin-top: 22px;
+    display: none;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu li a{
+    text-decoration: none;
+    padding-top: 0px;
+ }
+  .navbar-expand-lg .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+ }
+/* ---------Banner part Css-------- */
+#banner{
+  position: relative;
+}
+
+/* ---------About Us Part css-------- */
+#about-us{
+  padding-top: 150px;
+}
+.about-us-header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.about-us-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.industry-header p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.industry-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+/* --------Our Business Css------- */
+#our-business{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+ /* -------Feature part css-------- */
+ #feature{
+  padding-bottom: 70px;
+  padding-top: 70px;
+ }
+ .feature-header-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 20px;
+ }
+.feature-main-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+/* -----Customer part Css----- */
+#buyer{
+  padding-top: 70px;
+}
+/* -----------Service Part Css------------ */
+#service{
+  padding-bottom: 70px;
+}
+.service-header{
+  height: 100px;
+  width: 100%;
+  background-color: #081624;
+  padding: 20px;
+}
+.service-header h2{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    color: #fff;
+}
+.service-text p{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* --------Contact Part Css-------- */
+#contact{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+ /* ------------Team Part Css----------- */
+ .honour-team h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+ }
+ .team-title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+ }
+
+
+ /* -------Our Tech-------- */
+ #our-tech{
+  padding-bottom: 70px;
+ }
+ .uniq-tech-header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ .stainless-steel img{
+  margin-top: 48px;
+ }
+ /* ---------Our Customer------- */
+ #customer{
+  padding-bottom: 70px;
+ }
+ .our-customer-header h3{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ /* ---------Footer-------- */
+ #footer{
+  height: 100%;
+  width: 100%;
+  background-color: #081624;
+  padding: 50px;
+ }
+ .ftr-about h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 30px;
+ }
+ .ftr-pro-ser h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 30px;
+ }
+ .ftr-contact h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 30px;
+ }
+ .ftr-about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 10px;
+    text-align: justify;
+ }
+ .ftr-service-text p{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 10px;
+ }
+
+
+
+ .footer-icon-wrap {
+  margin-bottom: 15px;
+}
+.footer-icon{
+  color: #fff;
+  font-size: 25px;
+}
+.footer-text{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 10px;
+    float: left;
+}
+/* ==========Hamburger Menu========== */
+.hamburger {
+  position: relative;
+  cursor: pointer;
+  width: 35px;
+  height: 25px;
+}
+.hamburger span {
+  position: absolute;
+  display: block;
+  background-color: black;
+  width: 35px;
+  height: 4px;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg); 
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 0px;
+}
+.hamburger span:nth-child(2) {
+  top: 10px;
+}
+.hamburger span:nth-child(3) {
+  top: 20px;
+}
+
+.hamburger.active span:nth-child(1) {
+  top: 10px;
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg); 
+  transform: rotate(50deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  display: none;
+}
+
+.hamburger.active span:nth-child(3) {
+  top: 10px;
+  -ms-transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg); 
+  transform: rotate(-50deg);
+}
