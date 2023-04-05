@@ -21,7 +21,7 @@ html,body{
    left: 0;
    z-index: 999;
    width: 100%;
-   background-color: #081624;
+   background-color: #0e3a66;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right:0;
@@ -223,12 +223,55 @@ html,body{
     text-align: center;
     text-transform: uppercase;
  }
+/* Contact Part */
+#contact{
+  padding-bottom: 70px;
+}
+.f-name input{
+  width: 100%;
+  height: 60px;
+  padding: 12px 25px;
+  border: 1px solid #cccccc;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.message-box textarea{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 12px 25px;
+  border-radius: 15px;
+}
+.submit-btn{
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.submit-btn .btn{
+  width: 160px;
+  display: inline-block;
+  border: 2px solid #8482A6;
+  color: #8482A6;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #6AB2E5;
+  color: #2D7ECB;
+  border: none;
+}
 
  /* ---------Footer-------- */
  #footer{
   height: 100%;
   width: 100%;
-  background-color: #081624;
+  background-color: #0e3a66;
   padding: 50px;
  }
  .ftr-about h3{
@@ -283,7 +326,6 @@ html,body{
     font-weight: 300;
     color: #fff;
     padding-top: 10px;
-    float: left;
 }
 /* ==========Hamburger Menu========== */
 .hamburger {
